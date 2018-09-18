@@ -1,24 +1,27 @@
 {
-  "name": "Front-End-Avanzado",
-  "version": "1.0.0",
-  "description": "Práctica KeepCoding Web 5 Front-End Avanzado",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DanielRA76/Front-End-Avanzado.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DanielRA76/Front-End-Avanzado/issues"
-  },
-  "homepage": "https://github.com/DanielRA76/Front-End-Avanzado#readme",
-  "devDependencies": {
-    "webpack": "^4.19.1",
-    "webpack-cli": "^3.1.0"
-  }
+    "name": "Front-End-Avanzado",
+    "version": "1.0.0",
+    "description": "Práctica KeepCoding Web 5 Front-End Avanzado",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack",
+        "start": "webpack-dev-server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DanielRA76/Front-End-Avanzado.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/DanielRA76/Front-End-Avanzado/issues"
+    },
+    "homepage": "https://github.com/DanielRA76/Front-End-Avanzado#readme",
+    "devDependencies": {
+        "webpack": "^4.19.1",
+        "webpack-cli": "^3.1.0",
+        "webpack-dev-server": "^3.1.8"
+    }
 }
